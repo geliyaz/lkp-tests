@@ -1,7 +1,7 @@
 pkgname=pbzip2
 pkgver=1.1
 pkgrel=13
-arch=('i386' 'x86_64' 'aarch64')
+arch=('i386' 'x86_64' 'aarch64' 'riscv64')
 url="https://launchpad.net/pbzip2"
 license=('GPL')
 # https://launchpad.net/pbzip2/1.1/1.1.13/+download/pbzip2-1.1.13.tar.gz

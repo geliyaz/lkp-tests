@@ -1,7 +1,7 @@
 pkgname=blogbench
 pkgver=1.2
 pkgrel=1
-arch=('i386' 'x86_64' 'aarch64')
+arch=('i386' 'x86_64' 'aarch64' 'riscv64')
 url="https://github.com/jedisct1/Blogbench"
 license=('GPL')
 source=("https://download.pureftpd.org/pub/blogbench/blogbench-${pkgver}.tar.gz")

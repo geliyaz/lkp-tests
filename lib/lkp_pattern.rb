@@ -6,6 +6,7 @@ require 'active_support/core_ext/string'
 require "#{LKP_SRC}/lib/yaml"
 require "#{LKP_SRC}/lib/lkp_path"
 require "#{LKP_SRC}/lib/ruby"
+require 'singleton'
 
 module LKP
   class Pattern
