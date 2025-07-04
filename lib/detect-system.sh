@@ -219,6 +219,12 @@ detect_system()
 		_system_name="CentOS"
 		_system_version="$(GREP_OPTIONS="" \command \grep -Eo '[0-9\.]+' ${rootfs}/etc/centos-release  | \command \awk -F. '{print $1}' | head -n 1)"
 	elif
+    [ -f ${rootfs}/etc/os-release ] &&
+    GREP_OPTIONS="" \command \grep "ID=\"openEuler\"" ${rootfs}/etc/os-release >/dev/null
+  then
+    _system_version="$(grep 'VERSION_ID=' ${rootfs}/etc/os-release | cut -d '=' -f 2)"
+    _system_name="OpenEuler"
+	elif
 		[ -f ${rootfs}/etc/oracle-release ]
 	then
 		_system_name="Oracle"

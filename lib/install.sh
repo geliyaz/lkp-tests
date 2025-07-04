@@ -160,6 +160,9 @@ map_python_packages()
 		oracle-[9]*)
 			map_python2_to_python3
 			;;
+		openeuler-*)
+			map_python2_to_python3
+			;;
 	esac
 }
 

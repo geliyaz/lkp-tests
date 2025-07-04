@@ -1,0 +1,521 @@
+apache2: httpd
+apt-file:
+arping: iputils
+autopoint: gettext
+autotools-dev: autoconf
+binutils-dev: binutils-devel
+bsdextrautils:
+bsdmainutils:
+btrfs-tools: btrfs-progs
+build-essential: make automake gcc gcc-c++ kernel-devel rpm-build rpmdevtools
+cgroup-bin: libcgroup
+cgroupfs-mount:
+comerr-dev: libcom_err-devel
+cron: cronie
+dc: bc
+default-jdk: java-1.8.0-openjdk-devel
+devscripts:
+dh-exec:
+dh-python:
+dh-strip-nondeterminism:
+dh-systemd:
+dnsutils: bind-utils
+dpkg-dev:
+e2fslibs-dev: e2fsprogs-devel
+exfat-fuse:
+f2fs-tools:
+fonts-dejavu-core: dejavu-lgc-sans-fonts dejavu-lgc-sans-mono-fonts dejavu-lgc-serif-fonts dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+fsmark:
+fsverity: fsverity-utils
+g++-multilib:
+gcc-multilib:
+gcc-toolset-binutils: gcc-toolset-14-binutils
+gcc-toolset: gcc-toolset-14
+gdbserver: gdb-gdbserver
+gettext-base: gettext
+gfortran: gcc-gfortran
+heirloom-mailx: mailx
+hpcc:
+hwloc: hwloc hwloc-gui
+init-system-helpers:
+initramfs-tools: dracut
+install-info: info
+intltool-debian: intltool
+iozone3:
+iputils-clockdiff: iputils
+iputils-ping: iputils
+iputils-tracepath: iputils
+ipv6toolkit: thc-ipv6
+isc-dhcp-server: dhcp-server
+javahelper:
+jfsutils:
+klibc-utils:
+lib32gcc-dev:
+libacl1-dev: libacl-devel
+libaio-dev: libaio-devel
+libann0:
+libapache2-mpm-itk:
+libapparmor-dev:
+libapparmor1:
+libarchive-dev: libarchive-devel
+libarchive-tools: libarchive bsdtar
+libarchive-zip-perl:
+libasound2-data:
+libasound2-dev: alsa-lib-devel
+libasound2: alsa-lib
+libatomic1: libatomic
+libattr1-dev: libattr-devel
+libaudit-dev: audit-libs-devel
+libbabeltrace-dev: libbabeltrace-devel
+libbinutils:
+libblas3: blas
+libblkid-dev: libblkid-devel
+libboost-dev: boost-devel
+libboost-filesystem-dev: boost-filesystem
+libbrlapi-dev: brlapi-devel
+libbrlapi0.8: brlapi
+libbsd-dev: libbsd-devel
+libbsd0:
+libbz2-1.0:
+libbz2-dev: bzip2-devel
+libc-bin: glibc-common
+libc-dev-bin: glibc-common
+libc-dev: glibc-devel
+libc-l10n:
+libc6-dbg:
+libc6-dev-i386: glibc-devel.i686 glibc-static.i686
+libc6-dev-x32:
+libc6-dev: glibc-devel glibc-static
+libc6-dev:i386: glibc-devel.i686 glibc-static.i686
+libc6-i386:
+libc6-x32:
+libc6:
+libcairo2-dev: cairo-devel
+libcairo2: cairo
+libcap-dev: libcap-devel
+libcap-ng-dev: libcap-ng-devel
+libcap-ng0: libcap-ng
+libcap2-bin: libcap
+libcapnp-dev: capnproto-devel
+libcapstone-dev: capstone-devel
+libcapstone4: capstone
+libcc1-0:
+libcdt5: graphviz
+libcgraph6: graphviz
+libcilkrts5:
+libclang1: clang
+libcomerr2: libcom_err
+libconfig-dev: libconfig-devel
+libcpupower-dev:
+libcrypto++-dev: cryptopp-devel
+libcurl4-openssl-dev: libcurl-devel
+libdaxctl-dev: daxctl-devel
+libdbd-mysql-perl: perl-DBD-MySQL
+libdbi-perl: perl-DBI
+libdbus-1-dev: dbus-devel
+libdpkg-perl:
+libdrm-amdgpu1:
+libdrm-dev: libdrm-devel
+libdrm-intel1:
+libdrm-nouveau2:
+libdw-dev: elfutils-devel
+libdwarf-dev: libdwarf-devel
+libedit-dev: libedit-devel
+libegl-dev: mesa-libEGL-devel
+libegl1-mesa-dev: mesa-libEGL-devel
+libegl1: mesa-libEGL
+libelf-dev: elfutils-devel
+libelf1: elfutils-libelf
+libevent-dev: libevent-devel
+libevent-openssl:
+libexpat1-dev: expat-devel
+libfabric-dev: libfabric-devel
+libfdt-dev: libfdt-devel
+libfdt1: libfdt
+libffi-dev: libffi-devel
+libfftw3-bin: fftw
+libfftw3-dev: fftw-devel
+libfftw3-double3: fftw
+libfftw3-long3: fftw
+libfftw3-quad3: fftw
+libfftw3-single3: fftw
+libfile-stripnondeterminism-perl:
+libfontconfig1: fontconfig
+libfreetype6: freetype
+libfuse-dev: fuse-devel
+libfuse3: fuse3-libs
+libgbm-dev: mesa-libgbm-devel
+libgbm1: mesa-libgbm
+libgcc-dev: libgcc
+libgcrypt-dev: libgcrypt-devel
+libgcrypt20: libgcrypt
+libgd3: gd
+libgdbm-compat4:
+libgdbm-dev: gdbm-devel
+libgdbm6:
+libgfapi0:
+libgflags-dev: gflags-devel
+libgflags2.2: gflags
+libgfrpc0:
+libgfxdr0:
+libgl1-mesa-dev: mesa-libGL-devel
+libgl1-mesa-dri:
+libglib2.0-0: glib2
+libglib2.0-dev: glib2-devel
+libglu-dev: mesa-libGLU-devel
+libglusterfs0:
+libglut-dev: freeglut-devel
+libglut3: freeglut
+libgmp-dev: gmp-devel
+libgmp10:
+libgnutls28-dev: gnutls-devel
+libgnutls30: gnutls
+libgomp1: libgomp
+libgpm-dev: gpm-devel
+libgpm2: gpm-libs
+libgraphite2-3: graphite2
+libgsl-dev: gsl-devel
+libgsl: gsl
+libgssapi-krb5-2:
+libgtk-3-0: gtk3
+libgtk-3-dev: gtk3-devel
+libgtk2.0-dev: gtk2-devel
+libgts-0.7-5:
+libgvc6: graphviz
+libgvpr2: graphviz
+libharfbuzz0b: harfbuzz
+libhugetlbfs-bin:
+libhugetlbfs-dev:
+libhugetlbfs0:
+libhugetlbfs:
+libhwloc-dev: hwloc-devel
+libhwloc5:
+libiberty-dev: binutils-devel
+libibverbs-dev:
+libibverbs1: libibverbs
+libice6: libICE
+libicu-dev: libicu-devel
+libidn2-0: libidn2
+libiniparser-dev:
+libipc-run-perl: perl-IPC-Run
+libipsec-mb-dev: intel-ipsec-mb-devel
+libipsec-mb: intel-ipsec-mb
+libiscsi-dev: libiscsi-devel
+libisl: isl
+libitm1: libitm
+libjbig0: jbigkit-libs
+libjpeg-dev: libjpeg-turbo-devel
+libjpeg62-turbo: libjpeg-turbo
+libjson-c-dev: json-c-devel
+libjson:
+libkeyutils-dev: keyutils-libs-devel
+libkeyutils1: keyutils-libs
+libklibc-dev:
+libkmod-dev: kmod-devel
+libkmod2: kmod-libs
+libkrb5-dbg:
+libldap2-dev: openldap-devel
+libldap: openldap
+libleveldb-dev:
+libllvm: llvm-libs
+liblsan0: liblsan
+libltdl7: libtool-ltdl
+liblttng-ust-dev:
+liblz-dev:
+liblz4-1:
+liblz4-dev:
+liblzma-dev: xz-devel
+liblzma5:
+liblzo2-2: lzo
+liblzo2-dev: lzo-devel
+libmagic-mgc: file
+libmagic1:
+libmariadb-dev: mysql-devel
+libmariadb3: mariadb-connector-c
+libmnl-dev: libmnl-devel
+libmount-dev: libmount-devel
+libmpc3: libmpc
+libmpfr-dev: mpfr-devel
+libmpfr6: mpfr
+libmpx2:
+libncurses5-dev: ncurses-devel
+libncurses5: ncurses
+libncursesw5-dev: ncurses-devel
+libndctl-dev: ndctl-devel
+libnfs-dev: libnfs-devel
+libnl-3-200: libnl3
+libnl-3-dev: libnl3-devel
+libnl-cli-3-200: libnl3-cli
+libnl-genl-3-200: libnl3
+libnl-genl-3-dev: libnl3-devel
+libnl-idiag-3-200:
+libnl-nf-3-200:
+libnl-route-3-200:
+libnl-route-3-dev: libnl3-devel
+libnl-utils: libnl3
+libnpth0-dev: npth-devel
+libnpth0: npth
+libnss3-dev:
+libntfs:
+libnuma-dev: numactl-devel
+libnuma1: numactl
+liboath-dev:
+libobjc-7-dev: libobjc
+liboop-dev:
+liboop4:
+libopencryptoki0: opencryptoki-libs
+libopenmpi-dev: openmpi-devel
+libopenmpi3: openmpi
+libp11-kit0:
+libpango-1.0-0: pango
+libpangocairo-1.0-0: pango
+libpangoft2-1.0-0: pango
+libpathplan4: graphviz
+libpcap-dev: libpcap-devel
+libpci-dev: pciutils-devel
+libpci3: pciutils
+libpciaccess-dev: libpciaccess-devel
+libpciaccess0: libpciaccess
+libpcre3:
+libperl-dev: perl-devel
+libperl5: perl-libs
+libpfm-dev: libpfm-devel
+libpfm: libpfm
+libpipeline1: libpipeline
+libpipewire-dev: pipewire-devel
+libpixman-1-0: pixman
+libpixman-1-dev: pixman-devel
+libpmem-dev: libpmem-devel
+libpmem1: libpmem
+libpng-dev: libpng-devel
+libpng12-dev: libpng12-devel
+libpng16-16: libpng
+libpolly-dev:
+libpopt-dev: popt-devel
+libpopt0: popt
+libpq-dev: libpq-devel
+libpq5: libpq
+libprocps-dev: procps-ng-devel
+libprocps: procps-ng
+libprotobuf-dev: protobuf-devel
+libpthread-stubs0-dev:
+libpulse-dev: pulseaudio-libs-devel
+libpython2:
+libpython3: python3-libs
+python3-crypto: python3-cryptography
+python3-gi: python3-gobject
+python3-gi-cairo: python3-cairo
+python3-openssl: python3-pyOpenSSL
+libqt5opengl5-dev:
+libquadmath0: libquadmath
+librbd-dev: librbd-devel
+librdmacm-dev:
+librdmacm1: librdmacm
+libreadline-dev: readline-devel
+libreadline5: readline
+libsamplerate0-dev: libsamplerate-devel
+libsamplerate0: libsamplerate
+libsasl2-2: cyrus-sasl
+libsasl2-dev: cyrus-sasl-devel
+libsctp-dev: lksctp-tools-devel
+libsctp1: lksctp-tools
+libsdl2-2.0-0: SDL2
+libsdl2-dev: SDL2-devel
+libseccomp-dev: libseccomp-devel
+libseccomp2:
+libselinux1-dev: libselinux-devel
+libselinux1: libselinux
+libsigsegv2:
+libslang2-dev: slang-devel
+libslirp-dev: libslirp-devel
+libslirp0: libslirp
+libsm6: libSM
+libsmbclient-dev: libsmbclient-devel
+libsnappy-dev: snappy-devel
+libsnappy1v5: snappy
+libsndio7.0: sndio
+libsodium-dev: libsodium-devel
+libspice-protocol-dev: spice-protocol
+libspice-server-dev:
+libspice-server1:
+libsqlite3-0: sqlite
+libsqlite3-dev: sqlite-devel
+libssh-4: libssh
+libssh-dev: libssh-devel
+libssl-dev: openssl-devel
+libssl: openssl-devel
+libstdc++-dev: libstdc++-devel libstdc++-static
+libtasn1-6:
+libteam-utils: teamd
+libthai-data: libthai
+libthai0: libthai
+libtimedate-perl: perl-TimeDate
+libtinfo-dev: ncurses-devel
+libtirpc-dev: libtirpc-devel
+libtirpc3:
+libtool-bin: libtool
+libtraceevent-dev: libtraceevent-devel
+libtraceevent1: libtraceevent
+libtracefs-dev: libtracefs-devel
+libtsan0: libtsan
+libudev-dev: systemd-devel
+libudev1: systemd-libs
+libunwind-dev: libunwind-devel
+liburcu-dev: userspace-rcu-devel
+liburcu: userspace-rcu
+liburing-dev: liburing-devel
+libuuid1: libuuid
+libuv1-dev: libuv-devel
+libv4l-dev: libv4l-devel
+libvde-dev:
+libvde0:
+libvdeplug-dev:
+libvdeplug2:
+libvirt-clients: libvirt-client
+libvirt-daemon-system: libvirt-daemon
+libvirt-daemon: libvirt
+libvirt-dev: libvirt-devel
+libwaffle-dev: waffle-devel
+libwayland-client0: libwayland-client
+libwayland-cursor0: libwayland-cursor
+libwayland-dev: wayland-devel
+libwayland-egl1: libwayland-egl
+libx11-6: libX11
+libx11-data: libX11-common
+libx11-dev: libX11-devel
+libx11-xcb-dev: libX11-devel
+libx32asan5:
+libx32atomic1:
+libx32gcc-dev:
+libx32gcc1:
+libx32gomp1:
+libx32itm1:
+libx32quadmath0:
+libx32ubsan1:
+libxau6: libXau
+libxaw7: libXaw
+libxcb-render0: libxcb
+libxcb-shm0: libxcb
+libxcb1: libxcb
+libxdmcp6: libXdmcp
+libxdot4: graphviz
+libxen-dev:
+libxext6: libXext
+libxkbcommon-dev: libxkbcommon-devel
+libxml2-dev: libxml2-devel
+libxml2-utils: libxml2
+libxmlrpc-core-c3-dev:
+libxmlrpc-core-c3:
+libxmu6: libXmu
+libxpm4: libXpm
+libxrender1: libXrender
+libxslt1.1: libxslt
+libxt6: libXt
+libxxhash-dev:
+libxxhash0:
+libyaml-cpp-dev:
+libyaml-dev: libyaml-devel
+libzmq3-dev:
+libzmq5:
+libzstd-dev: zlib-devel
+linux-base:
+linux-cpupower: kernel-tools
+linux-libc-dev-amd64-cross:
+linux-libc-dev: kernel-headers
+linux-libc-dev:i386: kernel-headers
+linux-perf: perf
+llvm: llvm7.0
+locales: glibc-common
+manpages-dev: man-pages
+mesa-utils: mesa-demos
+mpi-default-bin: mpich
+multipath-tools: device-mapper-multipath
+mysql-server: mariadb
+nbd-client: nbd
+nbd-server: nbd
+ncurses-bin: ncurses
+netcat-openbsd: nmap-ncat
+netpipe-lam:
+netpipe-mpich2:
+netpipe-openmpi:
+netpipe-pvm:
+netpipe-tcp:
+network-manager: NetworkManager
+nfs-common: nfs-utils
+nfs-kernel-server: nfs-utils
+nilfs-tools:
+ocfs2-tools-dev:
+ocfs2-tools:
+openbsd-inetd: xinetd
+openjdk: java-1.8.0-openjdk-devel
+openmpi-bin:
+openvswitch-common:
+openvswitch-switch:
+peg:
+perl-base: perl
+perl-modules-5: perl
+pixz: pxz
+pkg-config: pkgconfig
+plzip:
+postmark:
+protobuf-compiler: protobuf
+python-dev: python3-devel
+python-gi-cairo:
+python-gi:
+python-minimal: python2
+python-numpy: numpy
+python-openssl: pyOpenSSL
+python-pkg-resources: python-setuptools
+qemu-system: qemu-kvm
+qemu-utils: qemu-img
+qemu: qemu-kvm
+qt5-default: qt5-qtbase
+qtbase5-dev: qt5-qtbase-devel
+reiserfsprogs:
+rng-tools5: rng-tools
+rpcsvc-proto: rpcgen
+rstatd: rusers-server
+rt-tests: numactl-devel
+ruby-dev: ruby-devel
+ruby-git:
+ruby-gnuplot:
+rusers:
+rusersd: rusers-server
+samba-dev: samba-devel
+sendip:
+sg3-utils: sg3_utils
+sgml-base: sgml-common
+sgml-data: sgml-common
+snmp: net-snmp
+systemtap-sdt-dev: systemtap-sdt-devel
+telnetd-ssl:
+texinfo: texinfo-tex
+thin-provisioning-tools:
+trinity:
+tshark: wireshark
+update-inetd: xinetd
+uuid-dev: libuuid-devel
+uuid-runtime: util-linux
+winpdb:
+wireguard: wireguard-tools
+wireless-regdb: crda
+wireshark-common: wireshark
+wpasupplicant: wpa_supplicant
+x11-apps:
+x11-common: xorg-x11-server-common
+xfslibs-dev: xfsprogs-devel
+xinit: xorg-x11-xinit
+xml-core: xml-common
+xorg:
+xsltproc: libxslt
+xutils-dev: imake
+xz-utils: xz
+zlib1g-dev: zlib-devel
+zlib1g: zlib
+python3-dev: python3-devel
+libtracefs-dev: libtracefs-devel
+libclang-dev: clang-devel
+libdw1: libdwarves1
+llvm-dev: llvm-devel
+cython3: python3-Cython
+freeglut3-dev: freeglut-devel
