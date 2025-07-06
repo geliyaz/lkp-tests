@@ -1,0 +1,40 @@
+diff --git a/src/socketpair.c b/src/socketpair.c
+index 34e85dd..8207232 100644
+--- a/src/socketpair.c
++++ b/src/socketpair.c
+@@ -25,7 +25,7 @@
+ 
+ typedef struct {
+ 	int			ts_once;
+-	int			ts_fd;
++	int			ts_fd[2];
+ } tsd_t;
+ 
+ #define	DEFN		256
+@@ -55,7 +55,7 @@ benchmark_pre(void *tsd)
+ 	tsd_t			*ts = (tsd_t *)tsd;
+ 
+ 	if (ts->ts_once++ == 0) {
+-		ts->ts_fd = -1;
++		ts->ts_fd[0] = -1;
+ 	}
+ 
+ 	return (0);
+@@ -66,7 +66,7 @@ benchmark(void *tsd, result_t *res)
+ {
+ 	tsd_t			*ts = (tsd_t *)tsd;
+ 
+-	LM_CHK(socketpair(PF_UNIX, SOCK_STREAM, 0, &ts->ts_fd) == 0);
++	LM_CHK(socketpair(PF_UNIX, SOCK_STREAM, 0, ts->ts_fd) == 0);
+ 
+ 	return (0);
+ }
+@@ -76,7 +76,7 @@ benchmark_post(void *tsd)
+ {
+ 	tsd_t			*ts = (tsd_t *)tsd;
+ 
+-	LM_CHK(close(ts->ts_fd) == 0);
++	LM_CHK(close(ts->ts_fd[0]) == 0);
+ 
+ 	return (0);
+ }

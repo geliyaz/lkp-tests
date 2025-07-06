@@ -5,14 +5,16 @@ pkgdesc="A portable set of microbenchmarks focused on the syscall and system lib
 arch=('i386' 'x86_64' 'aarch64' 'riscv64')
 url="https://github.com/rzezeski/libMicro"
 license=('CDDL')
-source=("https://github.com/rzezeski/libMicro.git" 'list.patch')
-md5sums=('SKIP' 'SKIP')
+source=("https://github.com/rzezeski/libMicro.git" 'list.patch' 'socketpair.patch' )
+md5sums=('SKIP' 'SKIP' 'SKIP')
 
 
 build() {
 	cd "$srcdir/$pkgname"
 	# increase the size of optstr array to avoid buffer overflow error
 	sed -i 's/optstr\[256\]/optstr\[2048\]/g' src/libmicro.c
+	sed -i 's\-m64\\g' Makefile.com
+	echo pkgdir is "${pkgdir}"
 	CFLAGS="" make
 }
 
